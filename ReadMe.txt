@@ -23,7 +23,7 @@ ________________________________________________________________________________
 
 Running RobotTestMain
 
-Open the zip and you will find a folder called RobotTest. Please drag this folder to wherever you would like, then navigate to this location in the Terminal/Command line. 
+In the folder called RobotTest you will find all necessary files. Please drag the folder RobotTest to wherever you would like, then navigate to this location in the Terminal/Command line. 
 
 Enter the following command:
 
@@ -35,7 +35,7 @@ Running RobotTestTests
 
 From the same directory you have copied the RobotTest folder to in the above step, int the Terminal/Command Line please type:
 
-python3 -m unittest discover
+python3 -m unittest -v test*.py
 
 The project contains a total of 18 tests, covering a total of 3 files - MovementHandler, PlacementHandler and Helpers. 
 
